@@ -39,6 +39,7 @@ header {
   margin-left: 5px;
   border-radius: 6px;
   color: white;
+  cursor: pointer;
 }
 
 main {
@@ -69,11 +70,13 @@ main {
 
 .weather-app-temperature-container {
   display: flex;
+  align-items: flex-start;
 }
 
-.weather-app-icon {
-  font-size: 44px;
-  margin-top: 22px;
+.weather-icon img {
+  width: 60px;
+  height: 60px;
+  display: block;
 }
 
 .weather-app-temperature {
@@ -82,11 +85,12 @@ main {
   font-weight: bold;
 }
 
-.weatehr-app-unit {
+.weather-app-unit {
   font-size: 45px;
   font-weight: bold;
   position: relative;
   top: 25px;
+  margin-left: 5px;
 }
 
 footer {
